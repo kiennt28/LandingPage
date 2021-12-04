@@ -1,0 +1,43 @@
+/****************************
+
+Main Font : Montserrat
+Main Color : #ffab00
+
+-----------------------------------
+
+Table of contents
+
+    01. Template default css
+    02. Navbar
+        - Navbar default
+    03. Banner
+        -Banner default
+    04. About Area
+        - Simple
+        - Video
+    05. Services
+    06. Why Choose Us
+    07. Areas of strength 
+    08. Case Studies
+    09. Our Technology
+    10. Contact Area
+    11. Blog 
+        - Simple
+    12. Footer 
+    
+-----------------------------------
+** General Styles for HTML tags
+
+****************************/
+@import "variables";
+@import "base";
+@import "header";
+@import "about";
+@import "services";
+@import "feature";
+@import "strengths";
+@import "technology";
+@import "contact";
+@import "footer";
+@import "blog";
+@import "case-studies";

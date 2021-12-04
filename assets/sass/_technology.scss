@@ -1,0 +1,23 @@
+#technology {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.technology-title {
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.technology-box {
+  //   border: 1px solid #000;
+  & img {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 739px) {
+  #technology {
+    padding-bottom: 50px;
+  }
+  .technology-box {
+    row-gap: 24px;
+  }
+}
